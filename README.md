@@ -1,14 +1,20 @@
-## Getting Started
+## About The Project
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This project was a pain in the ASS bc but I LEARNED THIS doing THIS and THIS
 
-## Folder Structure
+## Use Case Diagram
 
-The workspace contains two folders by default, where:
+As a user: AT LEAST 6
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- As a user, I want to namekittens
+- As a user, I want to take away kittens
+- As a user, I want to separate kittens 
+- As a user, I want to distinguish kittens by color
+- As a user, I want to view the kittens (in what order tho???)
+- As a user, I want to check if kittens have been fed
 
-## Dependency Management
+![Use Case Diagram](images/UseCase.png)
+
+## Class Diagram
 
 The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-pack/blob/master/release-notes/v0.9.0.md#work-with-jar-files-directly).
