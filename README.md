@@ -6,7 +6,7 @@ This project was a pain in the ASS bc but I LEARNED THIS doing THIS and THIS
 
 As a user: AT LEAST 6
 
-- As a user, I want to namekittens
+- As a user, I want to name kittens
 - As a user, I want to take away kittens
 - As a user, I want to separate kittens 
 - As a user, I want to distinguish kittens by color

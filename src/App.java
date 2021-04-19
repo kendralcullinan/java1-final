@@ -19,7 +19,7 @@ public class App {
             UIUtility.showSectionTitle(menuOptions[Integer.valueOf(choice) - 1]);
             switch (choice) {
                 case 1:
-
+                    
                     break;
                 case 2:
 
