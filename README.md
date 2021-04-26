@@ -14,7 +14,8 @@ As a user: AT LEAST 6
 - As a user, I want to check if kittens have been fed
 
 ![Use Case Diagram](images/UseCase.jpg) 
-![Updating Use Case Diagram](images/UseCase2.jpg)
+
+![Newer Use Case Diagram](images/UseCase2.jpg) 
 
 ## Class Diagram
 
