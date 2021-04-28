@@ -11,6 +11,7 @@ public class Litter {
      // kittens = new Kitten[20];
 
      public static void viewKittens(){
+    
         System.out.print(kittens.toString());
      }
 
@@ -30,6 +31,10 @@ public class Litter {
 
     public static void feedKitten(){
         // check if kitten is fed before feeding
+    }
+
+    public static void viewKittensByColor(){
+        // sort by color
     }
 
     public static void viewKittensByGender(){

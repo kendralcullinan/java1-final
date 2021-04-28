@@ -56,14 +56,14 @@ public class Kitten implements Comparable <Kitten> {
     public int getNumKittens() {
         return numKittens;
     }
-    public void setNumKittens(int kittenNumKittens) {
-        this.numKittens = kittenNumKittens;
+    public void setNumKittens(int numKittens) {
+        this.numKittens = numKittens;  
     }
 
     public boolean isFed() {
         return fed;
     }
-    public void setFed(String kittenFed) {
+    public void setFed(boolean kittenFed) { 
         this.fed = kittenFed;
     }
     

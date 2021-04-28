@@ -68,8 +68,8 @@ public class App {
         kitten.setName(kittenName);
         kitten.setGender(kittenGender);
         kitten.setBirthDate(kittenBirthDate);
-        kitten.setNumKittens(kittenNumKittens);
-        kitten.setFed(kittenFed);
+        kitten.setNumKittens(numKittensInt);
+        kitten.setFed(fedBool);
         Litter.addKitten(kitten);
         System.out.println("/nKitten added!!!!");
         UIUtility.pressEnterToContinue(scanner);
