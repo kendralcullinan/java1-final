@@ -1,15 +1,19 @@
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class Litter {
     private static List<Kitten> kittens = new ArrayList<>();
-    private static final int MaxKitties = 20;
+    private static final int MAX_KITTIES = 20;
     // private List<Kitten> kittens;
     // kittens = new ArrayList<>(20);
 
      // private Kitten[] kittens;
      // kittens = new Kitten[20];
 
+     public static boolean tooMany(){
+         return kittens.size() >= MAX_KITTIES;
+     }
      public static void viewKittens(){
     
         System.out.print(kittens.toString());
@@ -20,8 +24,8 @@ public class Litter {
         //     if kittens(i) == ' '{
         //     }
         // }
-        while(kittens.size() <= 20){
-            Litter.addKitten(kitten);
+        if(kittens.size() <= 20){
+            kittens.add(kitten);
         }
     }
 

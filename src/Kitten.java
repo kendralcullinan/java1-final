@@ -4,7 +4,7 @@ public class Kitten implements Comparable <Kitten> {
     private String gender;
     private LocalDate birthDate;
     private String color;
-    private int numKittens;
+    // private int numKittens;
     private boolean fed;
     
     public Kitten(){
@@ -12,16 +12,16 @@ public class Kitten implements Comparable <Kitten> {
         this.gender = "";
         this.birthDate = LocalDate.now();
         this.color = "";
-        this.numKittens = 0;
+        // this.numKittens = 0;
         this.fed  = false;
     }
     
-    public Kitten(String name, String gender, String birthDate, String color, int numKittens, boolean fed){
+    public Kitten(String name, String gender, String birthDate, String color, boolean fed){
         this.name = name;
         this.gender = gender;
-        this.birthDate = convertStrToDate(birthDate);
+        this.birthDate = Helpers.convertStrToDate(birthDate);
         this.color = color;
-        this.numKittens = numKittens;
+        // this.numKittens = numKittens;
         this.fed  = fed;
 
     }
@@ -53,12 +53,12 @@ public class Kitten implements Comparable <Kitten> {
     public void setColor(String color) {
         this.color = color;
     }   
-    public int getNumKittens() {
-        return numKittens;
-    }
-    public void setNumKittens(int numKittens) {
-        this.numKittens = numKittens;  
-    }
+    // public int getNumKittens() {
+    //     return numKittens;
+    // }
+    // public void setNumKittens(int numKittens) {
+    //     this.numKittens = numKittens;  
+    // }
 
     public boolean isFed() {
         return fed;
