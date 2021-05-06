@@ -63,10 +63,10 @@ public class App {
     }   
     
     public static void addKitten(Scanner scanner){
-        String kittenName = Helpers.input(scanner, "Enter the kitty's name: ");
-        String kittenGender= Helpers.input(scanner, "Enter the kitty's gender: (1 - Female or 2 - Male) ");
-        String kittenBirthDate = Helpers.input(scanner, "Enter the kitty's birthday![YYYY-MM-DD]: ");
-        String kittenNumKittens = Helpers.input(scanner, "How many kittens has the kitty had? ");
+        String kittenName = Helpers.input(scanner, "Enter the kitty's name");
+        String kittenGender= Helpers.input(scanner, "Enter the kitty's gender: (1 - Female or 2 - Male)");
+        String kittenBirthDate = Helpers.input(scanner, "Enter the kitty's birthday![YYYY-MM-DD]");
+        String kittenNumKittens = Helpers.input(scanner, "How many kittens has the kitty had?");
         int numKittensInt = UIUtility.validateIntInput(kittenNumKittens, 12, scanner);
   
         String kittenFed= Helpers.input(scanner, "Has the kitten been fed? [1 - Yes! or 2 - Nope]");

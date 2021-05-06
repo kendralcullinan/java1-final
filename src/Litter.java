@@ -15,8 +15,12 @@ public class Litter {
          return kittens.size() >= MAX_KITTIES;
      }
      public static void viewKittens(){
-    
-        System.out.print(kittens.toString());
+        // for(int i =0; i <= MAX_KITTIES; i++){
+        //     System.out.print(kittens[i].toString());
+        // }
+        for(Kitten str: kittens){
+            System.out.println(str);
+        }
      }
 
     public static void addKitten(Kitten kitten){
@@ -31,6 +35,7 @@ public class Litter {
 
     public static void adoptKitten(Kitten kitten){
         // delete kitten from arraylist
+
     }
 
     public static void feedKitten(){

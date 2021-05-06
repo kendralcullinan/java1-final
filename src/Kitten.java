@@ -69,7 +69,7 @@ public class Kitten implements Comparable <Kitten> {
     
     public String toString(){
         String result = "";
-        result += "Name: " + name + ", " + gender + birthDate;
+        result += "Name: " + name + ", Gender: " + gender + ", Birthday: " + birthDate;
         return result;
     }
 
